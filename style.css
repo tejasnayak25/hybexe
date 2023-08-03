@@ -1,0 +1,137 @@
+:root {
+    --text-sm: 0.875rem;
+    --text-base: 1rem;
+    --text-lg: 1.125rem;
+    --text-xl: 1.25rem;
+    --text-2xl: 1.5rem;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    color: #fff;
+    padding-left: 2px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+code {
+    font-style: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+header .githubBtn-mobile {
+    display: none !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .navBar h1 {
+        font-size: var(--text-xl);
+        line-height: var(--text-xl);
+        width: 40%;
+    }
+
+    .navBar {
+        margin: 0 !important;
+    }
+
+    header .githubBtn {
+        display: none !important;
+    }
+
+    header .githubBtn-mobile {
+        margin-top: -10px !important;
+        padding-right: 0;
+        display: inline-flex !important;
+    }
+
+    header {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .super-section {
+        padding-top: 7rem !important;
+        padding-bottom: 6rem !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .super-container h1 {
+        font-size: var(--text-2xl);
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        line-height: 1.9rem;
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+
+    .super-container p {
+        font-size: var(--text-base);
+        padding-left: 1.8rem;
+        padding-right: 1.8rem;
+        margin-bottom: 60px;
+    }
+
+    .super-container a {
+        font-size: var(--text-base);
+        height: 2.5rem;
+    }
+
+    .features h2, .pre-requisites h2, .env-setup h2, .req-pkgs h2, .ex-code h2, .cfg-std h2, .crt-inst h2, .version-stgs h2, .summary h2 {
+        font-size: var(--text-2xl);
+    }
+
+    .features .items div h3, .pre-requisites .items div h3, .env-setup .items div h3, .req-pkgs .items div h3 {
+        font-size: var(--text-lg);
+    }
+
+    .features .items div p, .pre-requisites .items div p, .env-setup .items div p, .req-pkgs .items div p {
+        font-size: var(--text-sm);
+    }
+
+    .cfg-std p, .crt-inst p, .version-stgs p, .summary p {
+        font-size: var(--text-sm);
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+
+    .summary a {
+        font-size: var(--text-base);
+    }
+
+    .env-setup code, .cfg-std code, .crt-inst code, .version-stgs code {
+        font-size: var(--text-sm);
+    }
+
+    .ex-code code {
+        font-size: var(--text-sm);
+    }
+
+    footer {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
+    }
+
+    footer .license {
+        font-size: var(--text-base);
+    }
+
+    footer .social {
+        font-size: var(--text-2xl);
+    }
+    
+
+    body section {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
+    }
+}
