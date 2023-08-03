@@ -51,15 +51,6 @@ pip install -r requirements.txt
 
 - [plyer](https://plyer.readthedocs.io/): A library for accessing platform-specific features such as notifications.
 
-## Getting Started
-
-Once you have set up the virtual environment and installed the prerequisites, you can start using HybExe to create your hybrid desktop app.
-
-```python
-from modules.browser import createWindow
-from modules.back import back
-from modules.notification import notify
-```
 
 ## Example
 
