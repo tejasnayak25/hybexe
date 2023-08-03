@@ -1,0 +1,43 @@
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    # Set the version numbers for the file and product
+    filevers=(1, 0, 0, 0),
+    prodvers=(1, 0, 0, 0),
+    # Set flags and masks (0x3f for version numbers)
+    mask=0x3f,
+    flags=0x0,
+    # Set the operating system and file type
+    OS=0x40004,
+    fileType=0x1,
+    # Set the subtype and date (you can customize these)
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    # Define the StringFileInfo block with language and metadata strings
+    StringFileInfo(
+      [
+        StringTable(
+          u'040904B0',  # Language ID (English)
+          [
+            StringStruct(u'FileDescription', u'Your File Description'),
+            StringStruct(u'FileVersion', u'1.0.0.0'),
+            StringStruct(u'InternalName', u'Your Internal Name'),
+            StringStruct(u'LegalCopyright', u'Your Copyright'),
+            StringStruct(u'OriginalFilename', u'Your Original Filename'),
+            StringStruct(u'ProductName', u'Your Product Name'),
+            StringStruct(u'ProductVersion', u'1.0.0.0'),
+            StringStruct(u'Language', u'Language Neutral'),
+            StringStruct(u'LegalTrademarks', u'Your Trademarks')
+          ]
+        )
+      ]
+    ),
+    # Define the VarFileInfo block with translations
+    VarFileInfo(
+      [
+        VarStruct(u'Translation', [1033, 1200])  # Language ID (English)
+      ]
+    )
+  ]
+)

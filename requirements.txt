@@ -1,0 +1,10 @@
+# requirements.txt
+
+# PyWebview - A lightweight cross-platform library to create web-based GUIs
+pywebview==4.2.2
+
+# PyInstaller - For building standalone executables
+pyinstaller==5.13.0
+
+# Plyer - A library for accessing platform-specific features
+plyer==2.1.0
