@@ -3,11 +3,11 @@
 Welcome to HybExe, a powerful framework for creating cross-platform hybrid desktop apps in Python. Built over pywebview, HybExe provides a seamless integration of web technologies with native desktop components. Let's dive into the details of how to use it.
 
 <div align="center">
-  <a href="https://github.com/tj-likes-coding/hybexe">
-    <img src="https://img.shields.io/github/stars/tj-likes-coding/hybexe?style=social" alt="GitHub stars" width="100">
+  <a href="https://github.com/tejasnayak25/hybexe">
+    <img src="https://img.shields.io/github/stars/tejasnayak25/hybexe?style=social" alt="GitHub stars" width="100">
   </a>
-  <a href="https://github.com/tj-likes-coding/hybexe/fork">
-    <img src="https://img.shields.io/github/forks/tj-likes-coding/hybexe?style=social" alt="GitHub forks" width="100">
+  <a href="https://github.com/tejasnayak25/hybexe/fork">
+    <img src="https://img.shields.io/github/forks/tejasnayak25/hybexe?style=social" alt="GitHub forks" width="100">
   </a>
 </div>
 
@@ -23,7 +23,7 @@ To get started with HybExe, you need to set up a virtual environment and install
 
 ```bash
 # Clone the GitHub repository
-git clone https://github.com/tj-likes-coding/hybexe.git
+git clone https://github.com/tejasnayak25/hybexe.git
 
 # Change into the project directory
 cd hybexe
