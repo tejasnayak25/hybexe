@@ -182,10 +182,10 @@ If you encounter any issues or have questions, don't hesitate to reach out to us
 Happy coding and distributing! 😎🚀
 
 <div align="center">
-  <a href="https://github.com/tj-likes-coding/hybexe">
-    <img src="https://img.shields.io/github/stars/tj-likes-coding/hybexe?style=social" alt="GitHub stars" width="100">
+  <a href="https://github.com/tejasnayak25/hybexe">
+    <img src="https://img.shields.io/github/stars/tejasnayak25/hybexe?style=social" alt="GitHub stars" width="100">
   </a>
-  <a href="https://github.com/tj-likes-coding/hybexe/fork">
-    <img src="https://img.shields.io/github/forks/tj-likes-coding/hybexe?style=social" alt="GitHub forks" width="100">
+  <a href="https://github.com/tejasnayak25/hybexe/fork">
+    <img src="https://img.shields.io/github/forks/tejasnayak25/hybexe?style=social" alt="GitHub forks" width="100">
   </a>
 </div>
